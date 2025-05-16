@@ -23,15 +23,16 @@
       ></a-camera>
       
       <a-entity mindar-image-target="targetIndex: 0" id="targetEntity">
-        <a-plane width="0.4" height="0.1" position="1 -0.1 0.02"></a-plane>
-        <a-text value="Brightness" color="#000" width="1.5" position="0.9 -0.1 0"></a-text>
-        <a-plane color="#000" opacity="0.2" width="0.4" height="0.2" position="1 -0.2 0.01"></a-plane>
-        <a-text id="NO2_value" value="1.91 mcd/m₂" width="1.5" position="0.9 -0.2 0.01"></a-text>
+        <a-plane color="#EB6C3E" width="0.5" height="0.1" position="1 -0.1 0.01"></a-plane>
+        <a-text value="Brightness" color="#000" width="1.5" position="0.8 -0.1 0.02"></a-text>
+        <a-plane color="#000" opacity="0.2" width="0.5" height="0.2" position="1 -0.2 0"></a-plane>
+        <a-text value="1.91 mcd/m₂" width="1.5" position="0.8 -0.2 0.02"></a-text>
+        
 
-        <a-plane id="pm2" width="0.4" height="0.1" position="-0.9 -0.1 0.02"></a-plane>
-        <a-text value="Bortle Dark Sky Scale" color="#000" width="1.5" position="-1 -0.1 0.02" ></a-text>
-        <a-plane color="#000" opacity="0.2" width="0.4" height="0.2" position="-0.9 -0.2 0.01"></a-plane>
-        <a-text id="pm2_value" value="6 class" width="1.5" position="-1 -0.2 0.01"></a-text>
+        <a-plane color="#EB6C3E" width="1" height="0.1" position="-0.9 -0.1 0.01"></a-plane>
+        <a-text value="Bortle Dark Sky Scale" color="#000" width="1.5" position="-1.3 -0.1 0.02" ></a-text>
+        <a-plane color="#000" opacity="0.2" width="1" height="0.2" position="-0.9 -0.2 0"></a-plane>
+        <a-text id="pm2_value" value="6 class" width="1.5" position="-1.3 -0.2 0.02"></a-text>
         
         <a-gltf-model rotation="0 0 0" position="0 0 0.2" scale="0.2 0.2 0.2" src="#lightModel"></a-gltf-model>
       </a-entity>
